@@ -1,0 +1,41 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+       <script src="imgscript.js"></script>    
+    <style>
+    
+    body{
+      width: 300px;
+      height: 400px;
+
+    }
+    h1{
+      color: #f00;
+      margin-left: 
+
+    }
+    #blah{
+      margin: 50px;
+    }
+    
+    </style>
+  </head>
+  
+  <body>
+    <h2>Customize Your Chrome New Tab</h1>
+    <h3>Enter Your Name : <input name="text" type="text"> </h3>
+    <input id="bt" name="button" type="submit">
+
+
+    <h3>Choose Your Image : <input type='file' onchange="readURL(this);" /> </h3>
+    <img id="blah" src="#" alt="your image" />   
+  </body>
+
+</html>
+
